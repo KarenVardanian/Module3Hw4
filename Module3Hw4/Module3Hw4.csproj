@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\FACE02.ICO" />
+    <None Remove="Images\FACE04.ICO" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nito.AsyncEx.Context" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\FACE02.ICO" />
+    <Resource Include="Images\FACE04.ICO" />
+  </ItemGroup>
+
+</Project>
